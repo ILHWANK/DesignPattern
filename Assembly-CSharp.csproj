@@ -68,7 +68,7 @@
     <Compile Include="Assets\Script\Command\CommandUnit.cs" />
     <Compile Include="Assets\Script\Command\GameManager.cs" />
     <Compile Include="Assets\Script\Flyweight\FieldObject.cs" />
-    <Compile Include="Assets\Script\Flyweight\FlyWeightPettarn.cs" />
+    <Compile Include="Assets\Script\Flyweight\FlyWeightPattern.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/gim-ilhwan/Documents/Unity/2019.4.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
