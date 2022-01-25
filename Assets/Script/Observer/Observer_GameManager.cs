@@ -36,6 +36,7 @@ public class Observer_GameManager : MonoBehaviour
                 subject.AddObserver(EquipUI);
                 break;
         }
+        
     }
 
     // UI가 닫힐 때 호출
