@@ -10,11 +10,16 @@ public class SpaceGrid : MonoBehaviour
 
     // 모든 Unit은 Add를 통해 등록이 되어야 함
     private SpaceUnit[,] cells = new SpaceUnit[NUM_CELL, NUM_CELL];
+
     public void Add(SpaceUnit unit) {
         int cellX = (int)(unit.x / CELL_SIZE);
         int cellY = (int)(unit.y / CELL_SIZE);
+
+        Debug.Log("Add 확인");
+
         unit.prev = null;
-        unit.next = cells[cellX, cellY]; cells[cellX, cellY] = unit;
+        unit.next = cells[cellX, cellY];
+        cells[cellX, cellY] = unit;
 
         if (unit.next != null) {
             unit.next.prev = unit;
@@ -67,7 +72,8 @@ public class SpaceGrid : MonoBehaviour
         int oldCellY = (int)(unit.y / CELL_SIZE);
         int cellX = (int)(x / CELL_SIZE);
         int cellY = (int)(y / CELL_SIZE);
-        unit.x = x; unit.y = y;
+        unit.x = x;
+        unit.y = y;
 
         // 여기까지가 위치 정보 수정이고
         // 여기서 부터는 검색 cell 위치 수정
@@ -92,7 +98,9 @@ public class SpaceGrid : MonoBehaviour
         while (other != null)
         {
             if (Distance(unit, other) < ATTACK_DISTANCE) {
-                HandleAttack(unit, other); } other = other.next;
+                HandleAttack(unit, other);
+            }
+            other = other.next;
         }
     }
 

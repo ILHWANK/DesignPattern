@@ -10,6 +10,7 @@ public class SpaceUnit : MonoBehaviour
         y = transform.localPosition.y;
         prev = null;
         next = null;
+
         // 생성이 완료 되면 gridMap에 넣는게 가장 중요
         SpacePartition.gridMap.Add(this);
         UpdateColor();
@@ -36,7 +37,8 @@ public class SpaceUnit : MonoBehaviour
 
         SpacePartition.gridMap.Move(this, x + _x, y + _y);
         transform.localPosition = new Vector3(x, y, transform.localPosition.z);
-        UpdateColor(); }
+        UpdateColor();
+    }
 
     // 위치에 따른 컬러 표기
     public void UpdateColor() {

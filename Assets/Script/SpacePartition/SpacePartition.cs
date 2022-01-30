@@ -20,13 +20,11 @@ public class SpacePartition : MonoBehaviour
         {
             SpaceUnit unit = obj.GetComponent<SpaceUnit>();
             gridMap.HandleMelee(unit.x, unit.y);
-            Debug.Log("키다운");
         }
 
         if (Input.GetKeyUp(KeyCode.Space))
         {
             gridMap.ResetColor();
-            Debug.Log("키업");
         }
 
         // 방향키로 메인 Object 이동
