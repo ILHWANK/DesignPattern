@@ -67,6 +67,9 @@
     <Compile Include="Assets\Script\Command\CommandPettarn.cs" />
     <Compile Include="Assets\Script\Command\CommandUnit.cs" />
     <Compile Include="Assets\Script\Command\GameManager.cs" />
+    <Compile Include="Assets\Script\Component\MoveAct.cs" />
+    <Compile Include="Assets\Script\Component\RotateAct.cs" />
+    <Compile Include="Assets\Script\Component\SpaghettiAct.cs" />
     <Compile Include="Assets\Script\Flyweight\FieldObject.cs" />
     <Compile Include="Assets\Script\Flyweight\FlyWeightPattern.cs" />
     <Compile Include="Assets\Script\Observer\ObserverPattern.cs" />
@@ -75,6 +78,9 @@
     <Compile Include="Assets\Script\Observer\UI_Equipment.cs" />
     <Compile Include="Assets\Script\Observer\UI_Inventory.cs" />
     <Compile Include="Assets\Script\Observer\UI_Status.cs" />
+    <Compile Include="Assets\Script\Singletone\PointAdd.cs" />
+    <Compile Include="Assets\Script\Singletone\PointManager.cs" />
+    <Compile Include="Assets\Script\Singletone\SceneTrans.cs" />
     <Compile Include="Assets\Script\SpacePartition\SpaceGrid.cs" />
     <Compile Include="Assets\Script\SpacePartition\SpacePartition.cs" />
     <Compile Include="Assets\Script\SpacePartition\SpaceUnit.cs" />
