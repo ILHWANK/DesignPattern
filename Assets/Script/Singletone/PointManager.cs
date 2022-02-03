@@ -17,7 +17,15 @@ public class PointManager : MonoBehaviour
         if (_instance == null)
         {
             _instance = this;
-        }    
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            if (this != _instance)
+            {
+                Destroy(this.gameObject);
+            }
+        }
     }
 
     public void AddPoint(int num)

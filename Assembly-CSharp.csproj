@@ -84,6 +84,12 @@
     <Compile Include="Assets\Script\SpacePartition\SpaceGrid.cs" />
     <Compile Include="Assets\Script\SpacePartition\SpacePartition.cs" />
     <Compile Include="Assets\Script\SpacePartition\SpaceUnit.cs" />
+    <Compile Include="Assets\Script\Strategy\Arrow.cs" />
+    <Compile Include="Assets\Script\Strategy\Bullet.cs" />
+    <Compile Include="Assets\Script\Strategy\BulletMove.cs" />
+    <Compile Include="Assets\Script\Strategy\IWeapon.cs" />
+    <Compile Include="Assets\Script\Strategy\Missile.cs" />
+    <Compile Include="Assets\Script\Strategy\WeaponManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/gim-ilhwan/Documents/Unity/2019.4.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
