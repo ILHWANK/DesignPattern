@@ -70,6 +70,12 @@
     <Compile Include="Assets\Script\Component\MoveAct.cs" />
     <Compile Include="Assets\Script\Component\RotateAct.cs" />
     <Compile Include="Assets\Script\Component\SpaghettiAct.cs" />
+    <Compile Include="Assets\Script\FactoryMethod\Boss.cs" />
+    <Compile Include="Assets\Script\FactoryMethod\BossFactory.cs" />
+    <Compile Include="Assets\Script\FactoryMethod\BossGenerator.cs" />
+    <Compile Include="Assets\Script\FactoryMethod\EventBoss.cs" />
+    <Compile Include="Assets\Script\FactoryMethod\NormalBoss.cs" />
+    <Compile Include="Assets\Script\FactoryMethod\UseFactoryMethod.cs" />
     <Compile Include="Assets\Script\Flyweight\FieldObject.cs" />
     <Compile Include="Assets\Script\Flyweight\FlyWeightPattern.cs" />
     <Compile Include="Assets\Script\Observer\ObserverPattern.cs" />
