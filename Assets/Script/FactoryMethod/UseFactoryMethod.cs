@@ -11,7 +11,7 @@ public class UseFactoryMethod : MonoBehaviour
 
     void Start()
     {
-        //factory = new BossGenerator();
+        // factory = new BossGenerator();
         factory = GetComponent<BossGenerator>();
 
         if (factory.type == BossType.NormalBoss)

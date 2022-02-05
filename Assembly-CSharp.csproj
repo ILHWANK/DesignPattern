@@ -64,6 +64,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\AbstractFactory\Barracks.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\FactoryMethod.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\FactoryMethodUse.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\Gateway.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\ProtossFactory.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\Pylon.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\RaceCapacity.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\RaceFactory.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\SupplyDepot.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\TerranFactory.cs" />
+    <Compile Include="Assets\Script\AbstractFactory\UnitBuilding.cs" />
     <Compile Include="Assets\Script\Command\CommandPettarn.cs" />
     <Compile Include="Assets\Script\Command\CommandUnit.cs" />
     <Compile Include="Assets\Script\Command\GameManager.cs" />
@@ -78,12 +89,18 @@
     <Compile Include="Assets\Script\FactoryMethod\UseFactoryMethod.cs" />
     <Compile Include="Assets\Script\Flyweight\FieldObject.cs" />
     <Compile Include="Assets\Script\Flyweight\FlyWeightPattern.cs" />
+    <Compile Include="Assets\Script\Flyweight2\FlyweightMarine.cs" />
+    <Compile Include="Assets\Script\Flyweight2\FlyweightUnit.cs" />
+    <Compile Include="Assets\Script\Flyweight2\FlyweightUnitFactory.cs" />
+    <Compile Include="Assets\Script\Flyweight2\FlyweightUse.cs" />
     <Compile Include="Assets\Script\Observer\ObserverPattern.cs" />
     <Compile Include="Assets\Script\Observer\Observer_GameManager.cs" />
     <Compile Include="Assets\Script\Observer\Subject.cs" />
     <Compile Include="Assets\Script\Observer\UI_Equipment.cs" />
     <Compile Include="Assets\Script\Observer\UI_Inventory.cs" />
     <Compile Include="Assets\Script\Observer\UI_Status.cs" />
+    <Compile Include="Assets\Script\Prototype\Marine.cs" />
+    <Compile Include="Assets\Script\Prototype\UnitManager.cs" />
     <Compile Include="Assets\Script\Singletone\PointAdd.cs" />
     <Compile Include="Assets\Script\Singletone\PointManager.cs" />
     <Compile Include="Assets\Script\Singletone\SceneTrans.cs" />
