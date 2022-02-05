@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{7D7E9693-3554-CDB7-F023-AEE40A34B392}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Flyweight2/FlyweightUse.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/ObjectPool/EnemyManager.cs">
     <Files>
       <File FileName="Assets/Script/Prototype/Marine.cs" Line="5" Column="20" />
       <File FileName="Assets/Script/Flyweight2/FlyweightUnit.cs" Line="9" Column="2" />
       <File FileName="Assets/Script/Flyweight2/FlyweightMarine.cs" Line="5" Column="29" />
       <File FileName="Assets/Script/Flyweight2/FlyweightUnitFactory.cs" Line="19" Column="45" />
-      <File FileName="Assets/Script/Flyweight2/FlyweightUse.cs" Line="8" Column="5" />
+      <File FileName="Assets/Script/Flyweight2/FlyweightUse.cs" Line="20" Column="1" />
+      <File FileName="Assets/Script/ObjectPool/Enemy.cs" Line="12" Column="41" />
+      <File FileName="Assets/Script/ObjectPool/EnemyManager.cs" Line="8" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,8 +18,9 @@
                 <Node name="AbstractFactory" expanded="True" />
                 <Node name="Component" expanded="True" />
                 <Node name="FactoryMethod" expanded="True" />
-                <Node name="Flyweight2" expanded="True">
-                  <Node name="FlyweightUse.cs" selected="True" />
+                <Node name="Flyweight2" expanded="True" />
+                <Node name="ObjectPool" expanded="True">
+                  <Node name="EnemyManager.cs" selected="True" />
                 </Node>
                 <Node name="Prototype" expanded="True" />
                 <Node name="Singletone" expanded="True" />

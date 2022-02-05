@@ -93,6 +93,8 @@
     <Compile Include="Assets\Script\Flyweight2\FlyweightUnit.cs" />
     <Compile Include="Assets\Script\Flyweight2\FlyweightUnitFactory.cs" />
     <Compile Include="Assets\Script\Flyweight2\FlyweightUse.cs" />
+    <Compile Include="Assets\Script\ObjectPool\Enemy.cs" />
+    <Compile Include="Assets\Script\ObjectPool\EnemyManager.cs" />
     <Compile Include="Assets\Script\Observer\ObserverPattern.cs" />
     <Compile Include="Assets\Script\Observer\Observer_GameManager.cs" />
     <Compile Include="Assets\Script\Observer\Subject.cs" />
