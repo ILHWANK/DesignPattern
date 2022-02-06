@@ -75,6 +75,12 @@
     <Compile Include="Assets\Script\AbstractFactory\SupplyDepot.cs" />
     <Compile Include="Assets\Script\AbstractFactory\TerranFactory.cs" />
     <Compile Include="Assets\Script\AbstractFactory\UnitBuilding.cs" />
+    <Compile Include="Assets\Script\Builder\BuildeUse.cs" />
+    <Compile Include="Assets\Script\Builder\CarBuilder.cs" />
+    <Compile Include="Assets\Script\Builder\Director.cs" />
+    <Compile Include="Assets\Script\Builder\InterfaceBuilder.cs" />
+    <Compile Include="Assets\Script\Builder\MotorCycleBuilder.cs" />
+    <Compile Include="Assets\Script\Builder\Vehicle.cs" />
     <Compile Include="Assets\Script\Command\CommandPettarn.cs" />
     <Compile Include="Assets\Script\Command\CommandUnit.cs" />
     <Compile Include="Assets\Script\Command\GameManager.cs" />
