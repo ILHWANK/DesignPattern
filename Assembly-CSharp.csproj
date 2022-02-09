@@ -75,6 +75,12 @@
     <Compile Include="Assets\Script\AbstractFactory\SupplyDepot.cs" />
     <Compile Include="Assets\Script\AbstractFactory\TerranFactory.cs" />
     <Compile Include="Assets\Script\AbstractFactory\UnitBuilding.cs" />
+    <Compile Include="Assets\Script\Adapter\Adapter.cs" />
+    <Compile Include="Assets\Script\Adapter\INewAction.cs" />
+    <Compile Include="Assets\Script\Adapter\IUnitAction.cs" />
+    <Compile Include="Assets\Script\Adapter\Player1.cs" />
+    <Compile Include="Assets\Script\Adapter\Player2.cs" />
+    <Compile Include="Assets\Script\Adapter\UnitAction.cs" />
     <Compile Include="Assets\Script\Builder\BuildeUse.cs" />
     <Compile Include="Assets\Script\Builder\CarBuilder.cs" />
     <Compile Include="Assets\Script\Builder\Director.cs" />
@@ -84,6 +90,9 @@
     <Compile Include="Assets\Script\Command\CommandPettarn.cs" />
     <Compile Include="Assets\Script\Command\CommandUnit.cs" />
     <Compile Include="Assets\Script\Command\GameManager.cs" />
+    <Compile Include="Assets\Script\Command2\Command2.cs" />
+    <Compile Include="Assets\Script\Command2\csCannon.cs" />
+    <Compile Include="Assets\Script\Command2\csPlayerCommand2.cs" />
     <Compile Include="Assets\Script\Component\MoveAct.cs" />
     <Compile Include="Assets\Script\Component\RotateAct.cs" />
     <Compile Include="Assets\Script\Component\SpaghettiAct.cs" />
