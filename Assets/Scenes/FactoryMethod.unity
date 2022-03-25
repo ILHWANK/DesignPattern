@@ -500,7 +500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64f02b27d18b24e12b7d2e35561dd1a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   _normalBoss: {fileID: 6822188762476129781, guid: 0d2655bb933af4f9b978a391ae82af48,
     type: 3}
   _eventBoss: {fileID: 5080298652787911808, guid: 067c44a43036a4b4da599126134e3d09,
